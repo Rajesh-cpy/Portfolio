@@ -159,7 +159,7 @@ export default function ProjectCard({ project }) {
               initial={{ scale: 0.95, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.95, opacity: 0 }}
-              className="glass-card relative max-w-2xl w-full rounded-3xl overflow-hidden bg-lightBg dark:bg-darkBg border border-slate-200 dark:border-slate-800 shadow-2xl"
+              className="glass-card relative max-w-2xl w-full rounded-3xl overflow-y-auto max-h-[95vh] md:max-h-[90vh] bg-lightBg dark:bg-darkBg border border-slate-200 dark:border-slate-800 shadow-2xl"
             >
               {/* Close Button */}
               <button
@@ -170,7 +170,7 @@ export default function ProjectCard({ project }) {
               </button>
 
               {/* Modal Cover Image */}
-              <div className="relative h-60 md:h-72 w-full overflow-hidden">
+              <div className="relative h-60 md:h-72 w-full overflow-hidden flex-shrink-0">
                 <div className="absolute inset-0 bg-gradient-to-t from-lightBg dark:from-darkBg via-transparent to-transparent z-10" />
                 <img
                   src={project.imageUrl}

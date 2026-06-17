@@ -50,7 +50,7 @@ export default function Timeline({ experience = [], education = [] }) {
 
                   {/* Circle Marker on Center Line */}
                   <div className="relative flex justify-start md:justify-center z-30">
-                    <div className="absolute left-0 md:left-auto h-8 w-8 rounded-full border-4 border-slate-900 dark:border-slate-900 bg-secondary flex items-center justify-center text-white text-xs shadow-glow-secondary transform -translate-x-1/2 md:translate-x-0">
+                    <div className="absolute left-4 md:left-auto h-8 w-8 rounded-full border-4 border-slate-900 dark:border-slate-900 bg-secondary flex items-center justify-center text-white text-xs shadow-glow-secondary transform -translate-x-1/2 md:translate-x-0">
                       <FaBriefcase />
                     </div>
                   </div>
@@ -109,7 +109,7 @@ export default function Timeline({ experience = [], education = [] }) {
 
                   {/* Circle Marker */}
                   <div className="relative flex justify-start md:justify-center z-30">
-                    <div className="absolute left-0 md:left-auto h-8 w-8 rounded-full border-4 border-slate-900 dark:border-slate-900 bg-primary flex items-center justify-center text-white text-xs shadow-glow-primary transform -translate-x-1/2 md:translate-x-0">
+                    <div className="absolute left-4 md:left-auto h-8 w-8 rounded-full border-4 border-slate-900 dark:border-slate-900 bg-primary flex items-center justify-center text-white text-xs shadow-glow-primary transform -translate-x-1/2 md:translate-x-0">
                       <FaGraduationCap />
                     </div>
                   </div>
